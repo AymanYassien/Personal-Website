@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Readex+Pro:wght,HEXP@160..700,0..100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href=".
+    /styles/style.css"
+    />
+    <title>Ayman Yassien</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <video class="video__loop" autoplay loop playsinline muted>
+        <!-- <source src="./images/video-loop.mp4" type="video/mp4"> -->
+      </video>
+
+      <header class="header">
+        <label class="burger-menu" for="menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+        <input id="menu" type="checkbox" class="burger-menu__checkbox" />
+
+        <nan class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link navigation__skills"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#media" class="navigation__link navigation__media"
+                >Media</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigation__link navigation__projects"
+                >Project</a
+              >
+            </li>
+            <li>
+              <a href="#clients" class="navigation__link navigation__clients"
+                >My Clients</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="navigation__link navigation__contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nan>
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There, I'm A Passionate Software Engineer
+          </h1>
+          <p class="bio__objectives">
+            My name is <span class="bio__name">Ayman Yasin</span>, a Full-Stack
+            Web Developer <span class="bio__track">(.Net & React)</span>, Who
+            Share my Contriputions and Projects on
+            <a
+              href="https://www.linkedin.com/in/aymanyassien/"
+              class="bio__linkedin"
+              >Linkedin</a
+            >,
+            <a href="https:// .com/AymanYassien" class="bio__github">Github</a>
+            and
+            <a
+              href="https://qabilah.com/profile/aymanyassien"
+              class="bio_Qabilah"
+              >Qabilah</a
+            >
+          </p>
+          <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+          <a
+            href="path/to/cv.pdf"
+            class="bio__links find-out-link"
+            aria-label="Download my CV"
+            >Download CV <span class="bio__arrow">↓</span></a
+          >
+        </div>
+
+        <div class="bio__pic-content">
+          <img
+            src="./images/personal__image.png"
+            alt="image of Ayman Yassien"
+            class="bio__personal-pic"
+          />
+        </div>
+      </section>
+
+      <section id="skills" class="skills section section-with-bg">
+        <h2 class="h2-heading">Skills</h2>
+
+        <ul class="skills__list">
+          <li class="skills__list-item">
+            <h4>ASP .Net Core</h4>
+            <span class="skills__item-year">2 years</span>
+          </li>
+          <li class="skills__list-item">
+            <h4>SQL Server</h4>
+            <span class="skills__item-year">2 years</span>
+          </li>
+          <li class="skills__list-item">
+            <h4>Git & Github</h4>
+            <span class="skills__item-year">2 years</span>
+          </li>
+          <li class="skills__list-item">
+            <h4>HTML & CSS</h4>
+            <span class="skills__item-year">2 years</span>
+          </li>
+          <li class="skills__list-item">
+            <h4>Java Script</h4>
+            <span class="skills__item-year">1 year</span>
+          </li>
+          <li class="skills__list-item">
+            <h4>React</h4>
+            <span class="skills__item-year">1 year</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="media section" id="media">
+        <video class="media__video" controls poster="./images/Thum.png">
+          <source
+            src="./images/Binary-Decimal-Store-video.mp4"
+            aria-label="Binary-Decimal-store video"
+            controls
+          />
+        </video>
+      </section>
+
+      <section id="projects" class="projects section">
+        <h2 class="h2-heading">
+          MY FEATURED <br />
+          PROJECTS
+        </h2>
+        <div class="projects__main">
+          <img src="./images/Thum.png" alt="" class="project__img" />
+          <div class="project__data">
+            <h3 class="h3-heading">Binary Decimal Store Website</h3>
+            <p class="projects__description">
+              An E-Commerce website, implemented by Asp .Net Core MVC, Use
+              identity for Authorize user and External Login (google,
+              Microsoft), Use Code First Approch for Database, EF Core, Linq,
+              for Validation Both Sever & Client Side, Apply Repository Pattern
+              and Unit of Work, For Payment services integrate with Stripe and
+              has a great Admin Pannel that allow full control on website ...
+            </p>
+            <a
+              href="https://github.com/AymanYassien/BinaryDecimalStore"
+              target="_blank"
+              class="projects__link"
+              >Github</a
+            >
+            <span>-</span>
+            <a
+              href="https://www.linkedin.com/posts/aymanyassien_ecommerce-dotnet-csharp-activity-7262881482958888960-Q7Sb?utm_source=share&utm_medium=member_desktop"
+              target="_blank"
+              class="projects__link"
+              >Linkedin
+            </a>
+          </div>
+
+          <div class="project__data">
+            <h3 class="h3-heading">Driving-License-Management Desktop</h3>
+            <p class="projects__description">
+              A comprehensive Windows Forms application developed to streamline
+              driver license management processes, featuring robust data
+              handling and administrative capabilities. Implemented using C# and
+              .NET Framework, the application demonstrates advanced software
+              development techniques and system design. Using SQL Server,
+              ADO.Net ...
+            </p>
+            <a
+              href="https://github.com/AymanYassien/Driving-License-Management"
+              target="_blank"
+              class="projects__link"
+              >Github</a
+            >
+            <!-- <span>-</span> -->
+          </div>
+          <img
+            src="./images/Main Desktop Image.png"
+            alt=""
+            class="project__img"
+          />
+        </div>
+      </section>
+
+      <section class="clients section section-with-bg" id="clients">
+        <h2 class="h2-heading">
+          What My <br />
+          Client Says.
+        </h2>
+        <div class="client__opinions">
+          <div class="client__wrapper">
+            <p class="client__opinion">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit id,
+              facere, ipsum quis blanditiis ipsam aut laudantium quidem
+              consectetur adipisci suscipit asperiores porro quas sed,
+              repellendus vel doloremque magni hic?
+            </p>
+            <p class="client__opinion">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt
+              porro quo totam facilis accusamus fugit nulla quis incidunt quos
+              neque? Atque exercitationem quibusdam corrupti vitae quas
+              voluptatem dolore ab cum.
+            </p>
+            <p class="client__opinion">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi
+              illo dicta, odio distinctio atque itaque cum reiciendis aliquam
+              asperiores cupiditate nihil corrupti, omnis ex similique
+              repellendus sunt dignissimos ducimus? Cupiditate.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div>
+          <p class="contact_description">
+            Feel free to reach out to me any time. I prefer to talk <br />
+            over email, especially since we may be a few time <br />
+            zones away.
+          </p>
+          <a href="mailto:ayman.yassien.fci@gmail.com" class="contact_email">
+            ayman.yassien.fci@gmail.com
+          </a>
+          <div class="contact_socials">
+            <a
+              href="https://www.linkedin.com/in/aymanyassien"
+              class="contact_social"
+            >
+              <img src="./images/brand/LinkedIn.svg" alt="image of LinkedIn" />
+            </a>
+            <a href="https://github.com/AymanYassien" class="contact_social">
+              <img src="./images/brand/github.svg" alt="image of Github" />
+            </a>
+
+            <a
+              href="https://qabilah.com/profile/aymanyassien"
+              class="contact_social"
+            >
+              <img
+                src="./images/brand/download.jpeg"
+                width="24px"
+                height="24px"
+                alt="image of Qabilah"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="contact__form">
+          <h2 class="h2-heading">
+            LET'S WORK <br />
+            TOGETHER!
+          </h2>
+          <form id="contactForm">
+            <div class="contact__inputs">
+              <input
+                class="contact__input"
+                type="text"
+                placeholder="Full Name"
+                required
+                name="name"
+              />
+              <input
+                class="contact__input"
+                type="tel"
+                placeholder="Phone No."
+                pattern="[0-9]{3}-[0-9]{9}"
+                title="Format: 123-456789012"
+                required
+                name="telphone"
+              />
+            </div>
+            <textarea
+              name="message"
+              id="message"
+              rows="1"
+              class="contact__input contact__textarea"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <input type="submit" value="Send Message" class="contact__button" />
+          </form>
+        </div>
+      </section>
+      <footer class="footer">&copy; 2024 By Ayman Yassien</footer>
+    </div>
+  </body>
+</html>

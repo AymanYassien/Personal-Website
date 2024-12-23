@@ -1,0 +1,40 @@
+How start Your CSS Project 
+
+
+________________________OutLine________________________
+1- Tips Before Start
+2- Tricks
+    a- Add padding to full width 
+    b- Toggle   (switch Theme)
+    c- Skills Section
+    D- Clients Section    | Scrool 
+    E- Loop Video
+    F- Scroll  : behavior + padding
+    G- Links in header
+
+________________________________________________
+1- Use Contaneraization
+2- Comment Sections
+3- Reset Values
+4- Set Vars, Fonts, Sizes, Colors  | use Suitablae units
+5- Bem
+6- Logical CSS
+
+________________________________________________
+Tricks:
+
+a- Add padding to full width 
+
+    1- Psedou elements has behavier Like childrens of elements
+    2- key words: position, display flex, height, width
+
+b- Toggle
+
+    1- Easy to Design label but not input
+    2- be Carefull for transtion here
+
+c- skills Section
+
+    1- start from small component to big ones
+
+________________________________________________

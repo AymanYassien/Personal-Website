@@ -1,0 +1,36 @@
+/* Media */
+
+/* Base section styles */
+.media {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+/* Video container styles */
+.media__video {
+  width: 100%;
+  max-width: 1000px; /* You can adjust this value */
+  height: auto;
+  aspect-ratio: 16 / 9; /* Maintains video aspect ratio */
+  display: block;
+}
+
+/* Add responsive handling */
+@media screen and (max-width: 992px) {
+  .media__video {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .media {
+    padding: 0 1rem;
+  }
+}
+
+/* End Media */
